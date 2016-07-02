@@ -10,9 +10,9 @@ Feature: Checking Wikipedia homepage displays correctly
   Scenario: User is presented with 'Did you mean?' and is able to follow the suggestion
     Given I visit the Wikipedia homepage
     When I search for "furry rabbits"
-    Then I should see a suggestion for the term search "fury rabbits"
+    Then I should see a suggestion for the search term "fury rabbit"
     When I accept this suggestion
-    Then I should see 20 search results for the term "fury rabbits"
+    Then I should see 20 search results for the term "fury rabbit"
     When I visit the first search result
     Then the article should have a title and a table of contents
 
@@ -20,5 +20,5 @@ Feature: Checking Wikipedia homepage displays correctly
   Scenario: User can navigate to random article pages on Wikipedia
     Given I use Wikipedia's random feature
     Then I should be shown an article
-    Given I use Wikipedia's random fetaure
+    When I use Wikipedia's random feature again
     Then I should see a different article
