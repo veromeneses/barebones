@@ -1,5 +1,7 @@
 all: ruby bundle test
 
+env: ruby bundle
+
 ruby:
 	brew install ruby
 	gem install bundler
