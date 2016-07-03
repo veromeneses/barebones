@@ -5,8 +5,8 @@ I've used the [page-object gem](https://github.com/cheezy/page-object) for easy 
 
 ## Requirements
 - Ruby 2.3.1
-- Bundler gem
-- Firefox 46 or 47.0.1 (latest as of today), but not 47.
+- [Bundler](http://bundler.io/) gem
+- Firefox 46 or 47.0.1, but not 47.
 
 ## Install
 Ruby can be installed following the instructions on [its website](https://www.ruby-lang.org/en/documentation/installation/)
