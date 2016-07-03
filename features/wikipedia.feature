@@ -1,3 +1,4 @@
+@wikipedia @all
 Feature: Checking Wikipedia homepage displays correctly
  In order to verify that the Wikipedia page has minimum features I need to make use of it
  as a Wikipedia user
