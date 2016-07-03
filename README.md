@@ -6,11 +6,9 @@ I've used the [page-object gem](https://github.com/cheezy/page-object) for easy 
 ## Requirements
 - Ruby 2.3.1
 - Bundler gem
-- Firefox 46: Because the latest Selenium has a problem with Firefox 47.
+- Firefox 46 or 47.0.1 (latest as of today), but not 47.
 
 ## Install
-Firefox would have to be installed directly from their old releases [FTP site](https://ftp.mozilla.org/pub/firefox/releases/46.0/).
-
 Ruby can be installed following the instructions on [its website](https://www.ruby-lang.org/en/documentation/installation/)
 
 To install Bundler gem + other gem dependencies:
