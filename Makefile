@@ -1,12 +1,9 @@
-all: ruby bundle test
+all: bundle test
 
-env: ruby bundle
-
-ruby:
-	brew install ruby
-	gem install bundler
+env: bundle
 
 bundle: Gemfile
+	gem install bundler
 	bundle install
 
 test: wikipedia travelex
