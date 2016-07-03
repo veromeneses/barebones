@@ -16,6 +16,7 @@ World(PageObject::PageFactory)
 
 Before do
   @browser = browser
+  @browser.window.maximize
 end
 
 at_exit do
