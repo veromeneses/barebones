@@ -5,7 +5,8 @@ env: bundle
 bundle: Gemfile
 	bundle install
 
-test: wikipedia travelex
+test:
+	cucumber
 
 wikipedia:
 	bundle exec cucumber -t @wikipedia
