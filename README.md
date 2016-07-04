@@ -17,7 +17,7 @@ make env
 ```
 
 ## Run
-To execute all the tests in this repo
+To execute all the tests in this repo and generate HTML report
 ```
 make test
 ```
@@ -38,7 +38,6 @@ More options can be found in the [Makefile](Makefile).
 ## Ideas not implement at this stage
 
 1. Running tests in parallel.
-2. Adding nice HTML reports.
-3. Implementing screenshot at the end of failing scenario.
-4. Implementing my own page objects without the need for the page-object gem.
-5. Implementing option to run in PhantomJS.
+2. Implementing screenshot at the end of failing scenario.
+3. Implementing my own page objects without the need for the page-object gem.
+4. Implementing option to run in PhantomJS.
