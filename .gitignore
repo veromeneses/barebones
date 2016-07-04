@@ -1,1 +1,4 @@
 Gemfile.lock
+.DS_Store
+features/.DS_Store
+features_report.html
