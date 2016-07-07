@@ -39,7 +39,7 @@ More options can be found in the [Makefile](Makefile).
 4. Not using config files to set up hosts or timeouts at this point as it wasn't necessary for the bare bones version.
 5. Not sure where the best place to put the pages was. My conclusion after investigation is that people just put them wherever it makes most sense for them so I did that. I'm having some second thoughts and will be probably moving my pages around but not just yet.
 
-## Ideas not implement at this stage
+## TODOs
 
 1. Implementing my own page objects without the need for the page-object gem.
 2. Implementing option to run in PhantomJS.

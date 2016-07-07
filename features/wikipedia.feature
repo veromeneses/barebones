@@ -8,7 +8,7 @@ Feature: Checking Wikipedia homepage displays correctly
     Given I visit the Wikipedia homepage
     Then the page title should be "Wikipedia"
 
-  Scenario: User is presented with 'Did you mean?' and is able to follow the suggestion
+  Scenario: User is presented with Did you mean and is able to follow the suggestion
     Given I visit the Wikipedia homepage
     When I search for "furry rabbits"
     Then I should see a suggestion for the search term "fury rabbit"
