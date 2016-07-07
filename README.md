@@ -25,6 +25,10 @@ To install gem dependencies and run all tests
 ```
 make all
 ```
+To run features in parallel
+```
+make parallel
+```
 More options can be found in the [Makefile](Makefile).
 
 ## Notes about this exercise
@@ -37,7 +41,6 @@ More options can be found in the [Makefile](Makefile).
 
 ## Ideas not implement at this stage
 
-1. Running tests in parallel.
-2. Implementing screenshot at the end of failing scenario.
-3. Implementing my own page objects without the need for the page-object gem.
-4. Implementing option to run in PhantomJS.
+1. Implementing screenshot at the end of failing scenario.
+2. Implementing my own page objects without the need for the page-object gem.
+3. Implementing option to run in PhantomJS.
