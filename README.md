@@ -41,6 +41,5 @@ More options can be found in the [Makefile](Makefile).
 
 ## Ideas not implement at this stage
 
-1. Implementing screenshot at the end of failing scenario.
-2. Implementing my own page objects without the need for the page-object gem.
-3. Implementing option to run in PhantomJS.
+1. Implementing my own page objects without the need for the page-object gem.
+2. Implementing option to run in PhantomJS.
