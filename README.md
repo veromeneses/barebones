@@ -37,7 +37,7 @@ More options can be found in the [Makefile](Makefile).
 2. Not using scenario outlines as I didn’t see the need since I’m not testing several similar test cases with different inputs and outputs.
 3. Not using headless mode (at this point) as I wanted to see the tests executing.
 4. Not using config files to set up hosts or timeouts at this point as it wasn't necessary for the bare bones version.
-5. Not sure where the best place to put the pages was. My conclusion after investigation is that people just put them wherever it makes most sense for them so I did that. I'm having some second thoughts and will be probably moving my pages around but not just yet.
+5. Not sure about best location for pages. They're living in a lib folder for now.
 
 ## TODOs
 
